@@ -22,19 +22,25 @@
   <body>
     <section class="row">
       <!-- contact info -->
-      <section class="col-3 border-right">
+      <section class="col-sm-6 col-lg-3 border-right">
         <figure class="text-center">
           <img src="./imges/pp.jpg" class="image--cover" />
           <figcaption>
             Rahmeh Alomary
             <br />
             Front-end Developer
+            <br />
+            Jordan-Amman
+            <br />
+            +962-079-659-5630
+            <div id="placeholder">
+              <p>Change DOB in JS</p>
+            </div>
           </figcaption>
         </figure>
         <hr />
         <section class="text-center">
-          <h1>Profile</h1>
-          <p class="p1">
+          <p class="AboutMe">
             Motivated software engineer looking to pursue a successful track in
             software development, where I can come to the cross of the
             state-of-the-art of software solutions. I'm always willing to learn
@@ -47,29 +53,569 @@
         <hr />
         <nav id="buttons">
           <li class="fb">
-            <a href="https://www.facebook.com/rahmeh.akram.7/" title="Facebook">
+            <a
+              href="https://www.facebook.com/rahmeh.akram.7/"
+              title="Facebook"
+              target="_blank"
+            >
               <i class="fa fa-facebook"></i>
             </a>
           </li>
-          <li class="tw">
-            <a href="#twitter" title="Twitter">
-              <i class="fa fa-twitter"></i>
+          <li class="sms">
+            <a href="#massage" title="Twitter" class="open-modal">
+              <i class="fa fa-envelope-o"></i>
             </a>
+            <dialog>
+              <h2>
+                Feel free to email me to provide feedback, suggest something, or
+                to just say hello!
+              </h2>
+              <form method="dialog">
+                <p style="color: #fff">rahmehalomari577@gmail.com</p>
+                <p style="color: #fff">+962-079-659-5630</p>
+                <button class="close-modal" value="cancel">No Thanks</button>
+              </form>
+            </dialog>
+            <p>
+              Enter the email in the modal and observe its return value:
+              <output></output>
+            </p>
           </li>
           <li class="in">
-            <a href="#instagram" title="Instagram" target="_blank">
+            <a
+              href="https://www.instagram.com/rahmehakram/"
+              title="Instagram"
+              target="_blank"
+            >
               <i class="fa fa-instagram"></i>
             </a>
           </li>
           <li class="gh">
-            <a href="#github" title="Github">
+            <a
+              href="https://github.com/rahmeh-alomari"
+              title="Github"
+              target="_blank"
+            >
               <i class="fa fa-github"></i>
             </a>
           </li>
         </nav>
       </section>
       <!-- ./contact info -->
-      <section class="col-9">Variable width content</section>
+      <section class="col-sm-6 col-lg-9 pt-3">
+        <div class="border border-dark rounded bg-doge">
+          <div class="row align-items-center">
+            <div class="col text-center" style="width: 90%">
+              <h2>
+                Motivated software engineer looking to pursue a successful track
+              </h2>
+
+              <div>
+                <span>&#60;</span>code<span>&#62;</span>I build....
+                <span>&#60;</span>/code<span>&#62;</span>
+              </div>
+            </div>
+            <div class="col">
+              <figure class="text-center">
+                <img src="./imges/pp.jpg" style="width: 450px" />
+                <figcaption></figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="site-wrapper">
+          <section class="tabs-wrapper">
+            <div class="tabs-container">
+              <div class="tabs-block">
+                <div class="tabs">
+                  <input type="radio" name="tabs" id="tab1" checked="checked" />
+                  <label for="tab1"
+                    ><span class="material-icons">Experience</span>
+                  </label>
+                  <div class="tab">
+                    <div id="skills">
+                      <div class="subheader">
+                        <h1 class="english">Skills</h1>
+                      </div>
+
+                      <div class="row skills_info">
+                        <div class="col-sm-4">
+                          <h2 class="english">Languages</h2>
+
+                          <img
+                            id="english"
+                            alt="English"
+                            src="./imges/britsh.jpg"
+                            class="border rounded-circle"
+                            height="70px"
+                            height="180px"
+                          />
+
+                          <img
+                            id="spanish"
+                            alt="Spanish"
+                            src="./imges/saudi.jpg"
+                            class="border rounded-circle"
+                            height="70px"
+                            height="180px"
+                          />
+                        </div>
+                        <div class="col-sm-4">
+                          <h2 class="english">Certifications</h2>
+                          <a
+                            target="_blank"
+                            href="https://www.datacamp.com/statement-of-accomplishment/course/88e7a4c4887950ee275d45a907832e823632cfa9"
+                            ><i class="fa fa-database"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.freecodecamp.org/certification/burinson/legacy-front-end"
+                            ><i
+                              class="fa fa-free-code-camp"
+                              aria-hidden="true"
+                            ></i
+                          ></a>
+
+                          <a
+                            target="_blank"
+                            href="https://www.freecodecamp.org/certification/burinson/javascript-algorithms-and-data-structures"
+                            ><i
+                              class="fa fa-free-code-camp"
+                              aria-hidden="true"
+                            ></i
+                          ></a>
+                        </div>
+                        <div class="col-sm-4" style="max-width: 340px">
+                          <h2 class="english">Technical skills</h2>
+                          <img
+                            src="./imges/html5.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/css3.jpg"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/js.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/typescript.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/react.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/bootstrap.jpg"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/jquery.jpg"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/matiral-ui.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/git.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/poostman.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/node.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/sql.jpg"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <input type="radio" name="tabs" id="tab2" />
+                  <label for="tab2"
+                    ><span class="material-icons">Projects</span>
+                  </label>
+                  <div class="tab">
+                    <div class="container mt-2">
+                      <!--   <div class="card card-block mb-2">
+                          <h4 class="card-title">Card 1</h4>
+                          <p class="card-text">Welcom to bootstrap card styles</p>
+                          <a href="#" class="btn btn-primary">Submit</a>
+                        </div>   -->
+                      <div class="row">
+                        <div class="col-md-3 col-sm-6 item">
+                          <div class="card item-card card-block">
+                            <img
+                              src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg"
+                              alt="Photo of sunset"
+                            />
+                            <h5 class="item-card-title mt-3 mb-3">
+                              Sierra Web Development • Owner
+                            </h5>
+                            <p class="card-text">
+                              This is a company that builds websites, web apps
+                              and e-commerce solutions.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 item">
+                          <div class="card item-card card-block">
+                            <img
+                              src="https://static.pexels.com/photos/7357/startup-photos.jpg"
+                              alt="Photo of sunset"
+                            />
+                            <h5 class="card-title mt-3 mb-3">ProVyuh</h5>
+                            <p class="card-text">
+                              This is a company that builds websites, web .
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 item">
+                          <div class="card item-card card-block">
+                            <img
+                              src="https://static.pexels.com/photos/262550/pexels-photo-262550.jpeg"
+                              alt="Photo of sunset"
+                            />
+                            <h5 class="card-title mt-3 mb-3">ProVyuh</h5>
+                            <p class="card-text">
+                              This is a company that builds websites, web apps
+                              and e-commerce solutions.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 item">
+                          <div class="card item-card card-block">
+                            <img
+                              src="https://static.pexels.com/photos/326424/pexels-photo-326424.jpeg"
+                              alt="Photo of sunset"
+                            />
+                            <h5 class="card-title mt-3 mb-3">ProVyuh</h5>
+                            <p class="card-text">
+                              This is a company that builds websites, web apps
+                              and e-commerce solutions.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <input type="radio" name="tabs" id="tab3" />
+                  <label for="tab3"
+                    ><span class="material-icons">Skills</span>
+                  </label>
+                  <div class="tab">
+                    <div id="skills">
+                      <div class="subheader">
+                        <h1 class="english">Skills</h1>
+                      </div>
+
+                      <div class="row skills_info">
+                        <div class="col-sm-4">
+                          <h4 class="english">Languages</h4>
+
+                          <img
+                            id="english"
+                            alt="English"
+                            src="./imges/britsh.jpg"
+                            class="border rounded-circle"
+                            height="70px"
+                            height="180px"
+                          />
+
+                          <img
+                            id="spanish"
+                            alt="Spanish"
+                            src="./imges/saudi.jpg"
+                            class="border rounded-circle"
+                            height="70px"
+                            height="180px"
+                          />
+                        </div>
+                        <div class="col-sm-4">
+                          <h4 class="english">Certifications</h4>
+                          <a
+                            target="_blank"
+                            href="https://www.datacamp.com/statement-of-accomplishment/course/88e7a4c4887950ee275d45a907832e823632cfa9"
+                            ><i class="fa fa-database"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.freecodecamp.org/certification/burinson/legacy-front-end"
+                            ><i
+                              class="fa fa-free-code-camp"
+                              aria-hidden="true"
+                            ></i
+                          ></a>
+
+                          <a
+                            target="_blank"
+                            href="https://www.freecodecamp.org/certification/burinson/javascript-algorithms-and-data-structures"
+                            ><i
+                              class="fa fa-free-code-camp"
+                              aria-hidden="true"
+                            ></i
+                          ></a>
+                        </div>
+                        <div class="col-sm-4" style="max-width: 340px">
+                          <h4 class="english">Technical skills</h4>
+                          <img
+                            src="./imges/html5.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/css3.jpg"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/js.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/typescript.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/react.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/bootstrap.jpg"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/jquery.jpg"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/matiral-ui.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/git.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/poostman.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/node.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/sql.jpg"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <input type="radio" name="tabs" id="tab4" />
+                  <label for="tab4"
+                    ><span class="material-icons">Education</span>
+                  </label>
+                  <div class="tab">
+                    <div id="skills">
+                      <div class="subheader">
+                        <h1 class="english">Skills</h1>
+                      </div>
+
+                      <div class="row skills_info">
+                        <div class="col-sm-4">
+                          <h2 class="english">Languages</h2>
+
+                          <img
+                            id="english"
+                            alt="English"
+                            src="./imges/britsh.jpg"
+                            class="border rounded-circle"
+                            height="70px"
+                            height="180px"
+                          />
+
+                          <img
+                            id="spanish"
+                            alt="Spanish"
+                            src="./imges/saudi.jpg"
+                            class="border rounded-circle"
+                            height="70px"
+                            height="180px"
+                          />
+                        </div>
+                        <div class="col-sm-4">
+                          <h2 class="english">Certifications</h2>
+                          <a
+                            target="_blank"
+                            href="https://www.datacamp.com/statement-of-accomplishment/course/88e7a4c4887950ee275d45a907832e823632cfa9"
+                            ><i class="fa fa-database"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.freecodecamp.org/certification/burinson/legacy-front-end"
+                            ><i
+                              class="fa fa-free-code-camp"
+                              aria-hidden="true"
+                            ></i
+                          ></a>
+
+                          <a
+                            target="_blank"
+                            href="https://www.freecodecamp.org/certification/burinson/javascript-algorithms-and-data-structures"
+                            ><i
+                              class="fa fa-free-code-camp"
+                              aria-hidden="true"
+                            ></i
+                          ></a>
+                        </div>
+                        <div class="col-sm-4" style="max-width: 340px">
+                          <h2 class="english">Technical skills</h2>
+                          <img
+                            src="./imges/html5.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/css3.jpg"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/js.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/typescript.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/react.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/bootstrap.jpg"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/jquery.jpg"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/matiral-ui.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/git.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/poostman.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/node.png"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                          <img
+                            src="./imges/sql.jpg"
+                            alt="typescript"
+                            width="60px"
+                            height="45px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <div id="callme">
+        <div id="callmeMain">
+          <a href="tel: +962-079-659-5630"></a>
+        </div>
+      </div>
     </section>
 
     <script
@@ -87,5 +633,7 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./index.js"></script>
   </body>
 </html>
