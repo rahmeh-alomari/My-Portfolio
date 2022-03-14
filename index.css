@@ -332,7 +332,7 @@ button {
 .tabs [type="radio"]:checked + label {
   background-color: #fff;
   color: #0067b8;
-  border-top: 4px solid #0067b8;
+  border-top: 4px solid #ffff99;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
 }
 
@@ -650,7 +650,7 @@ button {
 }
 #skills {
   height: auto;
-  background: #333;
+  background: #fff;
   background-image: url("https://www.sensionweb.com/wp-content/uploads/2017/01/web-development-background1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -674,7 +674,6 @@ button {
   font-family: "Jura", sans-serif;
 }
 .skills_info {
-  color: white;
   text-align: center;
   font-family: "Jura", sans-serif;
   margin-top: 30px;
@@ -732,7 +731,7 @@ a:hover {
 .item-card {
   transition: 0.5s;
   cursor: pointer;
-  min-height: 15em;
+  min-height: 20em;
 }
 .item-card-title {
   font-size: 15px;
@@ -781,4 +780,46 @@ a:hover {
 .card:focus::before,
 .card:focus::after {
   transform: scale3d(1, 1, 1);
+}
+
+.myaccordion {
+  max-width: 800px;
+  margin: 50px auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+  border: none;
+}
+
+.myaccordion .card-header {
+  border-bottom-color: #edeff0;
+  background: transparent;
+}
+
+.myaccordion .fa-stack {
+  font-size: 18px;
+}
+
+.myaccordion .btn {
+  width: 100%;
+  font-weight: bold;
+  color: #004987;
+  padding: 0;
+}
+
+.myaccordion .btn-link:hover,
+.myaccordion .btn-link:focus {
+  text-decoration: none;
+}
+
+.myaccordion li + li {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 540px) {
+  .fa {
+    margin-left: 1.2em;
+  }
 }
