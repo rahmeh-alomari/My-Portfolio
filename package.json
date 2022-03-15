@@ -1,23 +1,16 @@
 {
-  "name": "@true/my-portfolio",
+  "name": "@true/my-portfolio-main",
   "version": "1.0.0",
-  "engines": {
-    "node": "16.x",
-    "npm": "6.x"
-  },
+
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rahmeh-alomari/My-Portfolio.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rahmeh-alomari/My-Portfolio/issues"
-  },
-  "homepage": "https://github.com/rahmeh-alomari/My-Portfolio#readme"
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+
 }
