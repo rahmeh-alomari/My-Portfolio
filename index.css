@@ -731,7 +731,7 @@ a:hover {
 .item-card {
   transition: 0.5s;
   cursor: pointer;
-  min-height: 290px;
+  min-height: 350px;
 }
 .item-card-title {
   font-size: 15px;
