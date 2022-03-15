@@ -1,6 +1,7 @@
 {
   "name": "@true/my-portfolio-main",
   "version": "1.0.0",
+
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,4 +12,5 @@
   "dependencies": {
     "bootstrap": "^5.1.3"
   }
+
 }
